@@ -1,0 +1,7 @@
+s = input("Введите слово: ")
+down_s = s[::-1]
+
+if down_s == s:
+    print("YES")
+else:
+    print("No")

@@ -1,0 +1,13 @@
+s = input("Введите текст: ")
+len_s = len(s)
+s_new = ""
+s_new_space = ""
+
+for i in range(len_s):
+    if s[i] == " ":
+        s_new_space += s[i]
+        
+    else:
+        s_new += s[i]
+
+print("Новая строка: ", s_new_space + s_new)
