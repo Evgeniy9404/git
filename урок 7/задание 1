@@ -1,0 +1,9 @@
+a = int(input())
+list_n = []
+while a > 0:
+    a -= 1
+    n = int(input())
+    list_n.append(n)
+
+list_n.reverse()
+print(*list_n)
