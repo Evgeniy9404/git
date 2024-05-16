@@ -1,7 +1,0 @@
-lc1 = input("Введите первый список чисел через пробел: ").split()
-lc2 = input("Введите второй список чисел через пробел: ").split()
-
-uc1 = set(lc1)
-uc2 = set(lc2)
-uc3 = uc1.union(uc2)
-print(len(uc3))
